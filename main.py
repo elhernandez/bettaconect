@@ -1,5 +1,3 @@
-from mi_proyecto import modulo1
+from mi_proyecto.modulo1 import saludo
 
-if __name__ == '__main__':
-    modulo1.saludo()
-    
+saludo()
